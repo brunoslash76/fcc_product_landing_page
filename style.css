@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #666;
+    height: 50px;
+    position: fixed;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1024px;
+}
+
+.nav-container {
+    justify-content: center;
+    align-items: center;
+}
