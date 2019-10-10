@@ -1,65 +1,132 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="styleesheet" href="./style.css" />
+    <link type="text/css" rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
     <header id="header">
-        <section class="container">
-            <img src="" id="header-img" alt="Logitech logo">
+        <section class="container nav-container">
+            <img class="image"
+                src="https://media.wired.com/photos/59549ff25578bd7594c46820/master/w_289,c_limit/1997-Logo1.jpg"
+                id="header-img" alt="Logitech logo">
             <nav id="nav-bar">
-                <a class="nav-link" href="#about">About</a>
-                <a class="nav-link" href="#pricing">Pricing</a>
-                <a class="nav-link" href="#logitec">Logitech</a>
+                <a class="nav-link" href="#about-a">About</a>
+                <a class="nav-link" href="#prices">Pricing</a>
+                <a class="nav-link" href="#logitech">Logitech</a>
             </nav>
         </section>
     </header>
     <main>
-        <section class="container nav-container">
+        <section class="container main-container">
             <section id="about">
-                <iframe class="video" src="https://www.youtube.com/embed/LgYjdNyH5Dc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </section>
-            <section id="pricing">
-                <div class="card">
-                    <header>
-                        <p>Amazon</p>
-                    </header>
-                    <section class="content"></section>
-                </div>
-                <div class="card">
-                    <header>
-                        <p>e-Bay</p>
-                    </header>
-                    <section class="content"></section>
-                </div>
-                <div class="card">
-                    <header>
-                        <p>Logitech</p>
-                    </header>
-                    <section class="content"></section>
+                <a class="relative-anchor" href="#" id="about-a"></a>
+                <iframe class="video" src="https://www.youtube.com/embed/LgYjdNyH5Dc" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="about-content">
+                    <h2>UM NOVO PADRÃO DE CONFORTO E PRECISÃO</h2>
+                    <p>
+                        O trackball mais avançado da Logitech para entusiastas e consumidores de trackball procurando
+                        alternativas para ratos e touchpads. Oferece 20% menos de tensão muscular em comparação com um
+                        mouse normal.
+                    </p>
+                    <p>
+                        O MX ERGO possui uma dobradiça ajustável única para conforto personalizado e a mais recente
+                        tecnologia de rastreamento, rolagem e gerenciamento de energia. O Logitech FLOW ™ permite um
+                        controle de computador sem esforço.
+                    </p>
                 </div>
             </section>
+            <hr />
+            <section class="pricing-container" id="prices">
+                <a class="relative-anchor" href="#" id="prices-a"></a>
+                <h2 class="content-headings">Pricing</h2>
+                <section class="pricing-card-container" id="pricing">
+                    <div class="card">
+                        <header>
+                            <p>Amazon</p>
+                        </header>
+                        <section class="card-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </section>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <p>e-Bay</p>
+                        </header>
+                        <section class="card-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </section>
+                    </div>
+                    <div class="card">
+                        <header>
+                            <p>Logitech</p>
+                        </header>
+                        <section class="card-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                        </section>
+                    </div>
+                </section>
+            </section>
+            <hr />
             <section id="logitech">
+                <a class="relative-anchor" href="#" id="logitech-a"></a>
+                <h2 class="content-headings">
+                    A HISTÓRIA DA LOGITECH
+                </h2>
+                <div class="logitech-content">
+                    <p>A Logitech, uma empresa suíça focada em inovação e qualidade, projeta produtos e experiências que
+                        fazem parte do cotidiano das pessoas. Fundada em 1981 em Lausanne, Suíça, e expandindo-se
+                        rapidamente para o Vale do Silício, a Logitech começou a conectar pessoas através de periféricos
+                        de computador inovadores e muitas novidades da indústria, incluindo o mouse sem fio
+                        infravermelho, o trackball operado pelo polegar, o mouse a laser e muito mais.</p>
 
+                    <p>Desde os primeiros dias, expandimos nossa experiência em design de produtos e nosso alcance
+                        global. Nós nos concentramos em como nossos clientes se conectam e interagem com o mundo digital
+                        em cada um dos nossos produtos. O design é a parte essencial de tudo o que criamos, em todas as
+                        equipes e em todas as disciplinas, para criar experiências realmente únicas e significativas.
+                    </p>
+
+                    <p>Com produtos vendidos em quase todos os países do mundo, a Logitech se transformou em uma empresa
+                        multimarca que cria produtos que unem as pessoas por meio de música, jogos, vídeo e computação.
+                        As marcas da Logitech são Logitech, Ultimate Ears, Jaybird, Blue Microphones, ASTRO Gaming e
+                        Logitech G.</p>
+                </div>
             </section>
+            <hr />
         </section>
     </main>
     <footer>
-        <section class="container">
-            <section class="social-media">
-                
-            </section>
+        <section class="container footer-container">
             <section class="subscription">
                 <form id="form">
-                    <input type="email" id="email" placeholder="your@email.com" required />
-                    <input type="submit" id="submit"/>
+                    <div class="social-media"></div>
+                    <div class="subscription">
+                        <input class="email-input" type="email" id="email" placeholder="your@email.com" required />
+                        <input class="submit-button" type="submit" id="submit" />
+                    </div>
                 </form>
             </section>
         </section>
     </footer>
     <script src="./app.js"></script>
 </body>
+
 </html>

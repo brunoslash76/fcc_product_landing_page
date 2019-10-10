@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #333;
+    text-decoration: none;
 }
 
 html {
@@ -12,22 +16,150 @@ body {
     margin: 0;
 }
 
+main {
+    padding-top: 160px;
+}
+
+hr {
+    margin: 40px 40px;
+    opacity: 0.6;
+}
+
 #header {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #666;
-    height: 50px;
+    background-color: white;
+    height: 60px;
     position: fixed;
+    box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, .2), 0px -6px 9px 2px rgba(0, 0, 0, .3)
 }
 
 .container {
     display: flex;
     width: 80%;
     max-width: 1024px;
+    margin: auto;
 }
 
 .nav-container {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+#nav-bar {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.image {
+    width: 55px;
+}
+
+.main-container {
+    flex-flow: column;
+}
+
+.video {
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    padding-bottom: 40px;
+}
+
+.about-content h2{
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+p {
+    line-height: 20px;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+h2.content-headings {
+    font-weight: 100;
+    padding: 60px 0;
+}
+
+.pricing-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    width: 260px;
+    border: 1px solid #ddd;
+    height: 300px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 5px 4px 13px 1px rgba(0, 0, 0, 0.2), 5px 4px 6px 0px rgba(0, 0, 0, .4);
+}
+
+.card header {
+    border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+    padding-top: 20px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+footer {
+    background-color: #03b8fc;
+    height: 100px;
+}
+
+.footer-container {
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+.subscription {
+    position: relative;
+    width: 100%;
+    text-align: right;
+}
+
+.submit-button {
+    position: absolute;
+    border: none;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #dbfd01;
+    width: 60px;
+    right: 0;
+}
+
+.email-input {
+    padding-left: 5px;
+    border: none;
+    height: 30px;
+    width: 190px;
+    padding-right: 65px;
+    padding-left: 10px;
+}
+
+.relative-anchor {
+    top: -190px;
+    position: absolute;
+}
+
+@media (max-width: 800px) {
+    .video {
+        height: 300px;
+    }
+}
+
+@media (max-width: 574px) {
+    .video {
+        height: 200px;
+    }
 }
